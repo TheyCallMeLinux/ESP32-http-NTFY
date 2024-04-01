@@ -3,7 +3,7 @@
 #include <Wire.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
-#include <ArduinoJson.h>
+//#include <ArduinoJson.h> can be useful for later
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 #define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
