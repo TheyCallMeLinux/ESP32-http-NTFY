@@ -65,8 +65,6 @@ void loop() {
       String payload = http.getString();
       Serial.println(payload);  // Print response payload
       display.clearDisplay();
-      //display.display();
-      //display.println("Notification sent ");
       display.setTextSize(1);
       printCenter("Notification sent", 0, 32);
       display.display();
