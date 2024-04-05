@@ -1,6 +1,6 @@
 # ESP32-http-NTFY
 
-Uses an ESP32-C3  (PIN modifications might be required if you uses another device) with WiFi to publish on ntfy.sh using POST. Just edit stuff like "ntfyToken" and "ssid"/"password" of your own WiFi and it should be good to go or try it on Wokwi. 
+This project uses an ESP32-C3 microcontroller connected to WiFi to send notifications to ntfy.sh using the POST method. Just tweak 'ntfyToken' and 'ssid/password' with your WiFi info. It works seamlessly, or you can test it on Wokwi. ntfy (pronounced notify) is a handy HTTP-based pub-sub notification service. It lets you shoot notifications to your phone or desktop from any computer with scripts or a REST API. Super flexible!
 
 ## Instructions:
 
